@@ -1,0 +1,26 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    padding-inline: 18px;
+    padding-block: 16px;
+    background-color: var(--bg-input);
+    border-radius: 15px;
+    inline-size: 100%;
+    max-block-size: 318px;
+}
+
+.searchIcon {
+    fill: white;
+}
+
+.input {
+    border: none;
+    background-color: transparent;
+}
+
+.input::placeholder {
+    font-family: var(--font-main-text);
+    font-weight: 400;
+    font-size: 18px;
+}

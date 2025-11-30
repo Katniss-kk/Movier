@@ -1,0 +1,36 @@
+.profileContainer {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.textContainer {
+    display: grid;
+    row-gap: 14px;
+}
+
+.text {
+font-family: var(--font-main-text);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-profile-color);
+}
+
+.titleName {
+    color: var(--text-profile-color);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.infoText {
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--text-info-profile-color);
+}
+
+.profileImg {
+    border-radius: 15%;
+}

@@ -1,0 +1,22 @@
+.collectionContainer {
+  display: grid;
+  row-gap: 36px;
+}
+
+.title {
+  font-family: var(--font-main-text);
+  color: var(--text-profile-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.posterContainer {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.poster {
+}
+
+.img {
+}
