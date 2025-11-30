@@ -1,7 +1,0 @@
-.pageContainer {
-  padding-block-start: 54px;
-  padding-inline: 48px;
-  display: grid;
-  row-gap: 36px;
-  background-color: var(--bg-menu-color);
-}
