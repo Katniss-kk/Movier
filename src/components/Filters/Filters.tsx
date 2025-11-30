@@ -1,5 +1,6 @@
 import { FiltersUI } from "../UI";
+import { buttons } from "./FilterConstants";
 
 export default function Filter() {
-    return <FiltersUI/>
+    return <FiltersUI buttons={buttons}/>
 }

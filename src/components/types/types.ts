@@ -16,7 +16,15 @@ export interface IFilterButton {
   link: string;
 }
 
-export interface INewCollection {
-  link: string
-  img: string
+export interface IFilm {
+  Poster: string;
+  Title: string;
+  Type: string;
+  Year: string;
+  imdbID: string;
+}
+
+export interface ISortedFilms {
+  title: string;
+  films: IFilm[];
 }

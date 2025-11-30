@@ -1,0 +1,56 @@
+.SortedContainer {
+  position: relative;
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 10px;
+  inline-size: 320px;
+}
+
+.containerList {
+  inline-size: 320px;
+  block-size: 100px;
+}
+
+.swiper {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.title {
+  font-family: var(--font-main-text);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.img {
+  block-size: 100%;
+}
+
+.customPrevBtn,
+.customNextBtn {
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  align-content: end;
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+  background-color: var(--menu-button-color);
+  box-shadow: 0 0 20px var(--menu-button-color);
+  opacity: 0.6;
+  border-radius: 15px;
+  inline-size: 20px;
+  block-size: 20px;
+}
+
+.customPrevBtn {
+  top: 65px;
+  left: 10px;
+  justify-self: flex-start;
+}
+
+.customNextBtn {
+  top: 65px;
+  right: 10px;
+  justify-self: flex-end;
+}

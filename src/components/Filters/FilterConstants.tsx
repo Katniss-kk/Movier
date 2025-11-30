@@ -1,4 +1,4 @@
-import type { IFilterButton } from "../../types/types";
+import type { IFilterButton } from "../types/types";
 
 const catalog = ({ className }: { className?: string }) => {
   return (

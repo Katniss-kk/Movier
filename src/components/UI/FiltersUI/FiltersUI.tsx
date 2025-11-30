@@ -1,8 +1,8 @@
 import style from "./Filters.module.css";
-import { buttons } from "./FilterConstants";
 import { NavLink } from "react-router-dom";
+import type { IFilterButton } from "../../types/types";
 
-export default function FiltersUI() {
+export default function FiltersUI({ buttons }: { buttons: IFilterButton[] }) {
   return (
     <div className={style.filtersContainer}>
       <h3 className={style.title}>Filters</h3>

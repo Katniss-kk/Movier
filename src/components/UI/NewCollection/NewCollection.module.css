@@ -1,4 +1,5 @@
 .collectionContainer {
+  margin-block-end: 30px;
   display: grid;
   row-gap: 36px;
 }
@@ -11,12 +12,30 @@
 }
 
 .posterContainer {
-    display: grid;
-    grid-auto-flow: column;
+  justify-self: center;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .poster {
+  margin-inline-start: 45px;
 }
 
 .img {
+  inline-size: 210px;
+  block-size: 310px;
+}
+
+.swiper {
+  inline-size: 320px;
+}
+
+.customPrevBtn {
+  inline-size: 15px;
+  display: none;
+}
+
+.customNextBtn {
+  inline-size: 15px;
+  display: none;
 }

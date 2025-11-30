@@ -1,0 +1,33 @@
+.page {
+    padding: 28px;
+    background-color: var(--bg-menu-color);
+    min-block-size: 400px;
+}
+
+.containerFilms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.film {
+    inline-size: 100px;
+    block-size: 100px;
+}
+
+.title {
+    font-family: var(--font-main-text);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.year {
+    font-family: var(--font-main-text);
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.img {
+    inline-size: 100%;
+    block-size: 100%;
+}
