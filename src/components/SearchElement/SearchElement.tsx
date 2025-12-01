@@ -1,6 +1,6 @@
 import { useRef, type ChangeEvent } from "react";
 import { SearchElementUI } from "../UI";
-import { fetchFilmTitleThunk } from "../service/slice/DataFilmSlice";
+import { clearFilms, fetchFilmTitleThunk } from "../service/slice/DataFilmSlice";
 import { useAppDispatch } from "../service/store";
 
 export default function SearchElement() {
@@ -16,6 +16,7 @@ export default function SearchElement() {
 
     timeoutRef.current = window.setTimeout(() => {
       if (value.trim() !== "") {
+        dispatch(clearFilms())
         dispatch(fetchFilmTitleThunk(value));
       }
     }, 1000);

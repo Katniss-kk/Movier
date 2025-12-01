@@ -1,9 +1,10 @@
 :root {
   --font-main-text: sans-serif;
-  --bg-menu-color: #09090f;
+  --bg-menu-color: hsl(240, 25%, 5%);
   --menu-button-color: #51535d;
   --menu-button-colorActive: #ffffff;
   --bg-input: rgba(118, 118, 128, 0.12);
+  --border-shadow: rgba(118, 118, 128, 0.5);
   --text-profile-color: #ffffff;
   --text-info-profile-color: #A0A0A0;
   --button-text-color: #A0A0A0;

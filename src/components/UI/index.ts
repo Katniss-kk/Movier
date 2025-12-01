@@ -4,3 +4,4 @@ export { default as ProfileCardUI } from "./ProfileCardUI";
 export { default as FiltersUI } from "./FiltersUI";
 export { default as NewCollectionUI } from "./NewCollection";
 export { default as SortedFilmsUI } from "./SortedFilmsUI";
+export { default as FilmsCarouselUI } from "./FilmsCarouselUI";

@@ -28,3 +28,17 @@ export interface ISortedFilms {
   title: string;
   films: IFilm[];
 }
+
+export interface IFilmsCarousel {
+  collections: IFilm[];
+  slidesPerView: number | 'auto';
+  spaceBetween: number;
+  initialslide?: number;
+  breakpoints?: {
+    [width: number]: {
+      slidesPerView?: number | "auto";
+      spaceBetween?: number;
+      centeredSlides?: boolean;
+    };
+  };
+}

@@ -11,8 +11,8 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/search" element={<SearchPage />} />
-      </Routes>
       <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
       <MenuButton />
     </>
   );

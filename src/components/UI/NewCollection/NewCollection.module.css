@@ -1,7 +1,6 @@
 .collectionContainer {
+  inline-size: 100vw;
   margin-block-end: 30px;
-  display: grid;
-  row-gap: 36px;
 }
 
 .title {
@@ -9,33 +8,12 @@
   color: var(--text-profile-color);
   font-size: 24px;
   font-weight: 700;
+  margin-block-end: 20px;
 }
 
 .posterContainer {
-  justify-self: center;
-  display: grid;
-  grid-auto-flow: column;
+
 }
 
-.poster {
-  margin-inline-start: 45px;
-}
-
-.img {
-  inline-size: 210px;
-  block-size: 310px;
-}
-
-.swiper {
-  inline-size: 320px;
-}
-
-.customPrevBtn {
-  inline-size: 15px;
-  display: none;
-}
-
-.customNextBtn {
-  inline-size: 15px;
-  display: none;
+.swiperWrapper {
 }

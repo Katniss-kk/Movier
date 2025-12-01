@@ -1,33 +1,39 @@
 .page {
-    padding: 28px;
-    background-color: var(--bg-menu-color);
-    min-block-size: 400px;
+  padding-block-start: 30px;
+  padding-inline: 30px;
+  background-color: var(--bg-menu-color);
+  min-block-size: 400px;
 }
 
 .containerFilms {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin-block-start: 30px;
+  inline-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
 }
 
 .film {
-    inline-size: 100px;
-    block-size: 100px;
+    display: grid;
+    row-gap: 10px;
+  inline-size: 100%;
 }
 
 .title {
-    font-family: var(--font-main-text);
-    font-size: 14px;
-    font-weight: 400;
+  font-family: var(--font-main-text);
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .year {
-    font-family: var(--font-main-text);
-    font-size: 10px;
-    font-weight: 300;
-    text-align: center;
+  font-family: var(--font-main-text);
+  font-size: 8px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .img {
-    inline-size: 100%;
-    block-size: 100%;
+  inline-size: 100%;
 }

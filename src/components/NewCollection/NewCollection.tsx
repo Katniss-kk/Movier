@@ -16,7 +16,5 @@ export default function NewCollection() {
     dispatch(fetchFilmTitleThunk("star wars"));
   }, [dispatch]);
 
-  console.log(films);
-
   return <NewCollectionUI collections={films} />;
 }
